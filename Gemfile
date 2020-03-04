@@ -9,6 +9,7 @@ gem 'rails', '~> 5.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'devise'
 gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
