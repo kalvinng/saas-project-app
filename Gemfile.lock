@@ -83,6 +83,7 @@ GEM
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
     childprocess (3.0.0)
+    commonjs (0.2.7)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     devise (4.7.1)
@@ -91,7 +92,9 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-bootstrap-views (1.1.0)
     erubi (1.9.0)
+    execjs (2.7.0)
     ffi (1.12.2)
     ffi (1.12.2-java)
     ffi (1.12.2-x64-mingw32)
@@ -102,6 +105,12 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
+    less-rails (4.0.0)
+      actionpack (>= 4)
+      less (~> 2.6.0)
+      sprockets (>= 2)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -217,6 +226,11 @@ GEM
     thread_safe (0.3.6)
     thread_safe (0.3.6-java)
     tilt (2.0.10)
+    twitter-bootstrap-rails (3.2.2)
+      actionpack (>= 3.1)
+      execjs (>= 2.2.2, >= 2.2)
+      less-rails (>= 2.5.0)
+      railties (>= 3.1)
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
@@ -257,6 +271,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise
+  devise-bootstrap-views
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   milia!
@@ -268,6 +283,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  twitter-bootstrap-rails
   tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
